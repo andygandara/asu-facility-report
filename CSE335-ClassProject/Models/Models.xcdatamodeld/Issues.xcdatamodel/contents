@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18B75" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="IssueEntity" representedClassName="IssueEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="area" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="building" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="campus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="details" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="floor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="ProfileEntity" representedClassName="ProfileEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="emailAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="IssueEntity" positionX="-63" positionY="-18" width="128" height="165"/>
+        <element name="ProfileEntity" positionX="-54" positionY="36" width="128" height="90"/>
+    </elements>
+</model>
